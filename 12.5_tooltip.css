@@ -1,0 +1,10 @@
+.tooltip:hover::after {
+content:attr(custom-tooltip);
+position: absolute;
+background: yellow;
+color: purple;
+}
+
+.tooltip {
+color:blue
+}

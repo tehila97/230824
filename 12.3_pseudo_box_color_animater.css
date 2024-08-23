@@ -1,0 +1,21 @@
+#section1 {
+    width:100px;
+    height: 100px;
+    background: green;
+    }
+    
+section1::after{
+        content: '';
+        height: 100px;
+        width:50px;
+        position: relative;
+        background-color: purple;
+}
+
+section1:hover::after{
+        content: '';
+        height: 100px;
+        width:50px;
+        background-color: yellow;
+}
+        
